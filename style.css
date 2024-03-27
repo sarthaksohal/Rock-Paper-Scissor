@@ -1,0 +1,66 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+#gameintro{
+    background-color: navy;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    
+   text-align: center;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    background-color:black ;
+
+}
+
+
+img{
+    height:150px;
+    width: 150px;
+object-fit: cover;
+border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content:  center;
+align-items: center;
+gap: 3rem;
+margin-top: 5rem;
+}
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-top:5rem;
+    font-size:25px;
+}
+.winner{
+    margin-top: 5rem;
+    display:flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+#whowins{
+    background-color: darkblue;
+ color:white;
+    display:inline;
+    font-size:2rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
